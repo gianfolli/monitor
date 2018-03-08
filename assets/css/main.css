@@ -1,0 +1,247 @@
+/* ==================================== 
+Header (.navbar-static-top)
+===================================== */
+@media screen and (max-width: 480px) {
+    .navbar .dropdown-menu {margin-left: -210px;}
+}
+
+/* ==================================== 
+Sidebar (.navbar-static-side)
+===================================== */
+nav.navbar-default.navbar-static-side {min-height: 100%; position: fixed;}
+nav.navbar-default.navbar-static-side .sidebar-collapse {margin-bottom: 98px;}
+.nav-header {padding: 30px 25px 36px;}
+.nome-sistema {text-transform: uppercase; font-size: 28px; color: #8095a8;}
+.nome-sistema span {font-weight: 100}
+
+.profile-element {border-top: 1px solid #2f4050; border-bottom: 1px solid #2f4050; padding-bottom: 6px}
+
+/* --- Assinatura Cross Host --- */
+.navbar-static-side .crosshost-signature {
+    position: absolute; bottom: 0;
+    width: 90%; text-align: center; padding: 0 14px 18px; margin: 0 5%;
+    background: #2f4050;
+}
+.navbar-static-side .crosshost-signature img {max-width: 160px;}
+
+/* --- Mini Sidebar (.mini-navbar) --- */
+.mini-navbar .crosshost-signature,
+.mini-navbar .nome-sistema {display: none;}
+
+
+/* --- Responsive --- */
+@media screen and (max-width: 768px) {
+    .navbar-right {margin-right: 0;  text-align: right;}
+}
+
+/* ==================================== 
+CONTENT
+===================================== */
+
+/* === GERAL === */
+.tab-description {margin-bottom: 30px}
+
+/* === LOCUTOR === */
+.preview-img {background: #e1e1e1; text-align: center; padding: 0px; margin-bottom: 20px; max-width: 274px;}
+.preview-img img {width: 100%; max-width: 274px;}
+
+/* === CONFIG TEMA === */
+.thumb-theme {}
+.thumb-theme-bg {background: #e1e1e1; min-height: 86px; width: 150px; margin-bottom: 10px;}
+.group-colors {padding: 7px; border-radius: 10px; border: 1px solid #fff; margin-bottom: 10px}
+.group-colors:hover {border: 1px solid #e1e1e1;}
+.group-colors.active {background: #e1e1e1; border: 1px solid #e1e1e1;}
+.group-colors .color {width: 19px; height: 19px; border-radius: 100%; float: left; margin: 0 1px; border: 1px solid #d1d1d1;}
+.group-colors .secondary-color {margin-left: -10px;}
+
+/* === TABLES === */
+.line-options {opacity: 1; float: right;}
+.line-description {white-space: nowrap;overflow: hidden;text-overflow: ellipsis; max-width: 270px;}
+tr.privado {background: #e1e1e1!important}
+td .icon-rede-social img{max-width: 22px}
+td .name-locutor {line-height: 2.2; margin-left: 6px; font-weight: 600;}
+td.name-noticia {text-transform: lowercase;}
+td.name-noticia:first-letter {text-transform: capitalize;}
+td .thumb-locutor {width: 30px; height: 30px; overflow: hidden; text-align: center; float: left;
+    border-radius: 100%; background: url(../img/icons/user-small.png) #e1e1e1 no-repeat;}
+td .locutor {min-width:100%; max-height: 100%}
+tr .small.observacao {color: #999; opacity: 0}
+tr:hover .small.observacao {opacity: 1;}
+tr.gradeA:hover .line-options {opacity: 1;}
+.btn-novo {background: #1ab394!important; color: #fff!important; border-color: #1ab394; margin-left: 10px!important;}
+.btn-novo:hover {background: #23c6c8!important; color: #fff!important; border-color: #23c6c8;}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {font-family: 'FontAwesome'}
+table.dataTable thead .sorting_asc:after {content: "\f160"}
+table.dataTable thead .sorting_desc:after {content: "\f161"}
+table.dataTable thead .sorting:after {content: "\f0dc"}
+
+/* ==================================== 
+Footer (.footer)
+===================================== */
+
+.footer a {color: #1ab394}
+.footer a:hover {color: #23c6c8}
+.footer div {padding: 0!important;}
+.footer .pull-right {text-align: right;}
+
+/* --- Responsive --- */
+@media screen and (max-width: 420px) {
+    .footer {text-align: center!important; font-size: 12px}
+    .footer .pull-right {text-align: center; margin-bottom: 8px; font-size: 13px;}
+}
+
+@media screen and (max-height: 490px) {
+    #wrapper {display: none;}
+}
+
+/* ==================================== 
+Informação de Tela (.info-tela)
+===================================== */
+.info-tela.smartphone-landscape {display: none}
+
+@media screen and (max-height: 490px) {
+    #wrapper {display: none;}
+    .info-tela.smartphone-landscape {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    font-size: 20px;
+    
+    }
+    .info-tela.smartphone-landscape i {font-size: 60px; color:#1ab394}
+    .info-tela.smartphone-landscape p {margin: 18px 0;}
+    .info-tela.smartphone-landscape p span {font-size: 14px; color: #1ab394}
+}
+
+
+/* ====================================
+Alterações Gian
+=====================================*/
+
+/* ===============================Login Screen==================================*/
+
+.middle-box { max-width: 400px; margin-top: 80px; margin-bottom: 60px }
+
+.loginscreen.middle-box { width: 100%; background-color: #fff; padding: 0 35px 0 35px; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; padding-bottom: 8px; }
+
+.loginscreen.middle-box img { max-width: 400px; margin-left: -35px; /*ref padding*/ -webkit-border-top-left-radius: 6px; -webkit-border-top-right-radius: 6px; -moz-border-top-left-radius: 6px; -moz-border-top-right-radius: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px; }
+
+.loginscreen.middle-box h3 { margin: 30px 0 4px 0 }
+
+.loginscreen { margin-top: 0px; border-radius: 0px 0px 6px 6px !important; -moz-border-radius: 0px 0px 6px 6px !important; -webkit-border-radius: 0px 0px 6px 6px !important; }
+
+.loginscreen-img { background-color: transparent !important; border: none !important; padding: 0 35px; margin-bottom: 0px; margin-top: 80px; padding-bottom: 0px !important }
+
+/* ----- Responsive ----- */
+
+@media screen and (max-width: 480px) {
+
+    body { background-color: #fff }
+
+    .middle-box { margin: 0 auto; max-width: 100%; width: 100% }
+
+    .loginscreen.middle-box { border-radius: 0px !important; -moz-border-radius: 0px; -webkit-border-radius: 0px; padding: 0 5% 0 5%; margin: 0 !important; }
+
+    .loginscreen.middle-box img { max-width: 110%; margin-left: -5%; border-radius: 0px !important; -moz-border-radius: 0px; -webkit-border-radius: 0px; }
+
+}
+
+.dragandrophandler {
+    height: 280px;
+    border: 1px solid rgb(190, 190, 190);
+    width: 320px;
+    margin-bottom: 20px;
+    background: #EFEFEF;
+}
+
+
+/*Filtros (Clockpicker/datepicker) */
+
+#formInstancia .clockpicker, #formInstancia .date-picker { float: left; margin: 5px 10px; background: none; border: solid 1px #a7b1c2; padding: 0px; margin-top: 5px; }
+
+#formInstancia .clockpicker { width: 96px }
+
+#formInstancia .date-picker { width: 130px; height: 36px; }
+
+#formInstancia .clockpicker:hover, #formInstancia .date-picker:hover { border: solid 1px #a7b1c2 }
+
+#formInstancia .clockpicker input.form-control, #formInstancia .date-picker input.form-control { background: none; border: none; font-size: 12px }
+
+#formInstancia .date-picker .input-group-addon { padding-top: 0px; }
+
+#formInstancia .date-picker input { margin-top: -2px; }
+
+#formInstancia .clockpicker input.form-control:active, #formInstancia .clockpicker input.form-control:focus, #formInstancia .date-picker input.form-control:active, #formInstancia .date-picker input.form-control:focus, { background: #23c6c8; border-color: #fff; }
+
+#formInstancia .clockpicker span.input-group-addon, #formInstancia .date-picker span.input-group-addon { background: none; border: none; }
+
+#formInstancia .msg_agendamento { display: none; color: #ed5565; font-weight: bold; }
+
+#formInstancia .msg_horas { display: none; color: #ed5565; font-weight: bold; }
+
+#formInstancia .msg_selecione_data { display: none; color: #ed5565; font-weight: bold; }
+
+#formInstancia .msg_selecione_data_posterior { display: none; color: #ed5565; font-weight: bold; }
+
+#formInstancia .msg_agendamento_simples { display: none; color: #ed5565; font-weight: bold; }
+
+#formInstancia .bt_adicionaAgenda { margin-top: 6px; margin-bottom: 6px; }
+
+#formInstancia .bt_addAgendamento { display: none; float: right; }
+
+#formInstancia .agendamentos i { font-size: 14px; }
+
+#formInstancia .agendamentos { background: #FFF; padding-left: 0px; padding-right: 0px; }
+
+#formInstancia .agendamentos { margin-top: 20px; }
+
+#formInstancia .del-agendamento { float: right; }
+
+#formInstancia .agendamento { max-width: 340px; }
+
+#formInstancia .agendamento .panel-body { background: #fafafa; padding-top: 5px; }
+
+#formInstancia .horaBrasilia { margin-top: 10px; background: #8dc63f; padding: 5px; color: #fff; font-weight: bold; }
+
+#formInstancia .ajusta-hora { padding: 0px; }
+
+#formInstancia .ajusta-hora label { width: 40px !important; float: left; margin-top: 6px; }
+
+#formInstancia .ajusta-hora input { background: #fff; }
+
+#formInstancia .ajusta-hora .date-picker { background: #fff !important; }
+
+#formInstancia .ajusta-hora .clockpicker { background: #fff !important; }
+
+.ajusta-hora .col-lg-2 { width: 14% !important; text-align: center; }
+
+.ajusta-hora .titulo_agendamento { text-align: left !important; }
+
+#formInstancia .ajusta-horario { margin-bottom: 0px; border-radius: 4px 4px 0px 0px; }
+
+#formInstancia .horarios { margin-top: 0px; border-radius: 0px 0px 4px 4px; border-top: 0px; color: #000; display: none; }
+
+#formInstancia .horarios .panel-body { background: #FFF; }
+
+#formInstancia .horarios h4 { margin: auto; text-align: center; margin-top: 10px; }
+
+#formInstancia .titulo_agendamento { font-size: 13px; font-weight: bold; }
+
+#formInstancia .titulo_agendamento span { font-size: 13px; font-weight: normal; color: #bfc0c0 }
+/*.cover-login img{width: 100%;}*/
+/*.progressUpload{ height: 5px; background: #006621; display: block; width: 0%;}*/
+
+/* ==================================== 
+Goodbye!
+===================================== */
+.hidden {display: none}
+
