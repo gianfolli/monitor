@@ -43,6 +43,7 @@
 </head>
 
 <body style="overflow: hidden;">
+<?php echo 'OK'; ?>
 <div id="wrapper">
 	<!-- ====================================
 	Sidebar
@@ -512,7 +513,7 @@
 		console.log(data);
 			temp_server.set(parseInt(data.processor_server)); // set actual value
 			$('#valor-processor-server').html(parseInt(data.processor_server.trim())+'%');
-			
+
 		});
 
 		socket.on('info_temp', function (data) {
