@@ -43,7 +43,6 @@
 </head>
 
 <body style="overflow: hidden;">
-
 <div id="wrapper">
 	<!-- ====================================
 	Sidebar
