@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="robots" content="noindex">
 
-	<title>Teste </title>
+	<title>Monitor Test</title>
 	<link href="assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/jquery-ui.css" rel="stylesheet">
 	<link href="assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
