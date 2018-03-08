@@ -38,10 +38,8 @@
 			color: black;
 			font-family: 'Amaranth', sans-serif;
 		}
-
 	</style>
 </head>
-
 <body style="overflow: hidden;">
 <div id="wrapper">
 	<!-- ====================================
@@ -59,7 +57,7 @@
 				<div class="col-lg-8">
 					<div class="ibox float-e-margins">
 						<div class="ibox-title">
-							<h5>Temperatura</h5>
+							<h5>Temperatura </h5>
 						</div>
 						<div class="ibox-content">
 							<div id="saida"></div>
