@@ -43,7 +43,7 @@
 </head>
 
 <body style="overflow: hidden;">
-<?php echo 'OK'; ?>
+
 <div id="wrapper">
 	<!-- ====================================
 	Sidebar
